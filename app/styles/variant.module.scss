@@ -1,0 +1,21 @@
+.variant {
+    gap: 4px;
+    display: flex;
+
+    &__items {
+        opacity: 0.4;
+        color: #fff;
+        cursor: pointer;
+        padding: 4px 6px;
+        border-radius: 4px;
+        background: #004751;
+
+        &.active {
+            opacity: 1;
+        }  
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

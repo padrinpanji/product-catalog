@@ -1,0 +1,11 @@
+.product__gallery {
+    img {
+        width: inherit;
+        height: 450px;
+        object-fit: contain;
+    }
+
+    .media-wrapper {
+        overflow: hidden;
+    }
+}
